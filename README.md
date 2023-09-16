@@ -31,3 +31,7 @@ ssh -i /path/to/your-key-pair.pem ec2-user@ec2-instance-public-dns-or-ip "bash /
 
 #### This sequence of steps will create an EC2 instance using Terraform, copy your docker.sh script onto the instance, and execute it.
 
+You can now start your server!
+
+Visit http://<server_public_ip>:3000 to see your app running. 🎉 🎉
+
